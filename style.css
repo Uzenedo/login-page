@@ -12,7 +12,7 @@ body{
 
 .container{
     background-color:  #4585f7;
-    padding-right: 2rem;
+    padding-right: 30px;
     margin-top: 3%;
     margin-right: 20%;
     margin-left: 20%;
@@ -47,13 +47,12 @@ h2{
    color: #555555;
  }
 
-.rme label{
+.rememberme label{
   color: #555555;
   padding-right: 30rem;
-  padding-left: 3px;
 }
 
-.rme a{
+.rememberme a{
   text-decoration: none;
 }
 
@@ -67,4 +66,24 @@ h2{
   text-align: center;
   border: none;
   outline: none;
+}
+
+@media (max-width: 811px){
+.rememberme label{
+  padding-right: 9rem;
+}
+}
+
+@media (max-width: 375px){
+  h2{
+    font-size: 20px;
+  }
+
+  .container2{
+    padding: 10px;
+  }
+
+  .rememberme label{
+    padding-right: 3rem;
+  }
 }
